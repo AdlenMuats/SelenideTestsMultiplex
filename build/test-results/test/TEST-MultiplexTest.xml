@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MultiplexTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-02T09:15:27" hostname="DESKTOP-41AQ7L1" time="0.822">
+  <properties/>
+  <testcase name="checkCinemaListText" classname="MultiplexTest" time="0.647"/>
+  <testcase name="checkFacebookUrl" classname="MultiplexTest" time="0.021"/>
+  <testcase name="checkPosters" classname="MultiplexTest" time="0.089"/>
+  <testcase name="cityNotMykolaiv" classname="MultiplexTest" time="0.023"/>
+  <testcase name="yellowIsForPopcorn" classname="MultiplexTest" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 57384
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+вер. 02, 2022 12:15:11 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+вер. 02, 2022 12:15:11 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 104
+вер. 02, 2022 12:15:11 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 104
+]]></system-err>
+</testsuite>

@@ -12,32 +12,32 @@ public class MultiplexTest {
         Configuration.timeout = 1111;
         Configuration.baseUrl = "https://multiplex.ua";
         MultiplexPage.openPage();
-        MultiplexPage.PopUpClick();
-        MultiplexPage.MenuBtnClick();
+        MultiplexPage.popUpClick();
+        MultiplexPage.menuBtnClick();
     }
 
     @Test
-    public void CheckCinemaListText() {
-         MultiplexPage.CheckCinemaList("Кінотеатри");
+    public void checkCinemaListText() {
+        MultiplexPage.checkCinemaList("Кінотеатри");
     }
 
     @Test
-    public void CheckFacebookUrl() {
-        MultiplexPage.FacebookUrl("https://www.facebook.com/uamultiplex");
-        }
-
-    @Test
-    public void CheckPosters() {
-                MultiplexPage.FivePostersVisible();
-
-    }
-    @Test
-    public void CityNotMykolaiv() {
-        MultiplexPage.CityCheck();
+    public void checkFacebookUrl() {
+        MultiplexPage.facebookUrl("https://www.facebook.com/uamultiplex");
     }
 
     @Test
-    public void YellowIsForPopcorn() {
-        MultiplexPage.PopcornCheck();
+    public void checkPosters() {
+        MultiplexPage.fivePostersVisible();
+    }
+
+    @Test
+    public void cityNotMykolaiv() {
+        MultiplexPage.cityCheck();
+    }
+
+    @Test
+    public void yellowIsForPopcorn() {
+        MultiplexPage.popcornCheck();
     }
 }
